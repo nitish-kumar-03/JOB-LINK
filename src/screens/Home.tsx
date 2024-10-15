@@ -5,7 +5,7 @@ export const Home = () => {
   return (
     <View style={styles.container}>
       <Text style = {styles.title}>Welcome to Home !!</Text>
-      <Button title="Hello Button" onPress={() => alert("Button Pressed!")} />
+      <Button color="red" title="Hello Button" onPress={() => alert("Button Pressed!")} />
     </View>
   );
 };
