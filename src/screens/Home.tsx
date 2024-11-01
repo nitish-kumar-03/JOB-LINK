@@ -5,7 +5,7 @@ export const Home = () => {
   return (
     <View style={styles.container}>
       <Text style = {styles.title}>Welcome to Home !!</Text>
-      <Button color="red" title="Hello Button" onPress={() => alert("Button Pressed!")} />
+      <Button color="red" title="Hello Button" onPress={() => alert("Button Ji Pressed!")} />
     </View>
   );
 };
@@ -13,11 +13,9 @@ export const Home = () => {
 const styles = StyleSheet.create ({
     container:{
         flex:1,
-        backgroundColor:"black",
         alignItems:"center",
     },
     title:{
-        color:"white",
         paddingVertical:10,
         fontSize:20
     },
